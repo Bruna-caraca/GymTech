@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    color: #E1E1E6;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252733;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label-form {
+    color: #E1E1E6 !important;
+}
+
+.MuiInputBase-root {
+    margin: 16px 0 !important;
+    width: 520px !important;
+    height: 49px !important;
+    background-color: #2B2D39;
+    border-radius: 7px !important;
+}
+
+.MuiButtonBase-root:hover {
+    border-color: none;
+}
+
+.MuiButtonBase-root {
+    margin: 16px 0 !important;
+    background-color: #4A61EA !important;
+    border-radius: 7px !important;
+    padding: 12px !important;
+}
+
+.MuiOutlinedInput-input {
+    color: #7C7C8A !important;
+}
+
+.icon {
+    color: #7C7C8A !important;
+    padding: 0 10px !important;
+}
+
+.footer {
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.MuiLink-root {
+    color: #4A61EA !important;
+}
